@@ -13,6 +13,5 @@ $(document).ready(function(){
     $(".wdbtn").click(function(){
         $(".wdcontent").slideToggle(1000);
     });
-  
-  $(".heroimg").slideUp(10000);
 });
+
