@@ -292,10 +292,10 @@ table {
   transition: 0.5s;
 }
 .logoimg:hover{
-  -ms-transform: scale(1.25, 1.25); 
-  -webkit-transform: scale(1.25, 1.25);
-  transform: scale(1.25, 1.25);
-  transition:scale(1.25, 1.25);
+  -ms-transform: scale(1.1, 1.1); 
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  transition:scale(1.1, 1.1);
 }
 
 .mmbtn {
@@ -329,10 +329,10 @@ table {
   transition: 0.5s;
 }
 .mmimg:hover{
-      -ms-transform: scale(1.25, 1.25); /* IE 9 */
-    -webkit-transform: scale(1.25, 1.25); /* Safari */
-    transform: scale(1.25, 1.25);
-  transition:scale(1.25, 1.25);
+  -ms-transform: scale(1.1, 1.1); 
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  transition:scale(1.1, 1.1);
 }
 .wdbtn {
   width:100%;
@@ -367,10 +367,10 @@ table {
 
 .wdimg:hover{
   cursor:pointer;
-      -ms-transform: scale(1.25, 1.25); /* IE 9 */
-    -webkit-transform: scale(1.25, 1.25); /* Safari */
-    transform: scale(1.25, 1.25);
-  transition:scale(1.25, 1.25);
+  -ms-transform: scale(1.1, 1.1); 
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  transition:scale(1.1, 1.1);
 }
 .cont {
   background-color:#f2f2f2;
