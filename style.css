@@ -1,15 +1,12 @@
-@media screen and (max-width:750px) {
+@media screen and (max-width:800px) {
   .herotxt {display:none;}  
-  p {font-size: 1.5em;}
-  ul {display:none}
+  #menu {position:relative;}
+  #menu li {float:none; font-size: 2em; width:100%;}
+  #menu li a {width:100%;}
 }
 body {
   margin:0;
   font-family:arial;
-}
-.test {
-  width:100%;
-  text-align:center;
 }
 .herotxt {
   text-align:center;
@@ -60,8 +57,9 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding:14px 16px;
+  padding:10px 16px;
   text-decoration: none;
+  font-size:1.2em;
   transition:0.3s;
 }
 
@@ -262,6 +260,18 @@ table {
   margin: 0px 0px 3% 0px;
   padding: 1% 10% 1% 10%;
 }
+.ptflo {
+  width:100%;
+  border:0;
+  padding: 2px;
+  
+  transition: 0.3s;
+}
+.ptflo:hover{
+  background-color:#f2f2f2;
+  cursor: pointer;
+}
+
 .logobtn {
   width:100%;
   height:auto;
@@ -311,7 +321,7 @@ table {
   transition:0.5s;
 }
 .mmbtn:hover {
-  background-color:#f7b733;
+  background-color:#fc4a1a;
   cursor:pointer;
   
   transition:0.5s;
@@ -383,11 +393,12 @@ table {
   margin: 0 35% 0 35%;
   padding-bottom:5px;
   background-color:#ffffff;
+  box-shadow: 0px 1px 2px #d7d7d7;
   
   transition:0.3s;
 }
 .infocard:hover{
-  box-shadow: 0px 3px 5px;
+  box-shadow: 0px 2px 5px;
   
   transition:0.3s;
 }
@@ -434,4 +445,18 @@ table {
 }
 .footertwo p {
   color:#d7d7d7;
+}
+.codepen {
+  width: auto;
+  height:auto;
+  padding:5px;
+  border:0;
+  background-color:#1a1a1a;
+  color:#d7d7d7;
+  
+  transition: 0.2s;
+}
+.codepen:hover {
+  background-color:#404040;
+  cursor:pointer;
 }
