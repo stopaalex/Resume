@@ -117,4 +117,3 @@ function wddesout() {
   document.getElementById("wdbtn").innerHTML = "WEB DESIGN";
 }
 */
- 
