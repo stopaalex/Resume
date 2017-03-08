@@ -9,6 +9,7 @@
   
   <!-- WELCOME -->
   <!-- WELCOME -->
+  
   <ul id="menu">
     <li > <a href="#about">ABOUT ALEX</a></li>
     <li > <a href="#exp">EXPERIENCE</a></li>
@@ -49,10 +50,10 @@
     </h2>
   
     <p>
-      I am a digital marketing professional who is currently working at a trade association in the Washington D.C. area as a marketing associate.
+      Forward thinking marketing professional offering a unique combination of creativity and analytical skill in in web development, strategic marketing planning, and content creation.
     </p>
     <p>
-      I have spent two and half years at the Food Processing Suppliers Association,  work as the Communications Director (non-profit volunteer) for Discovery Deep, and do freelance graphic design, creating logos, marketing material, websites, and more.<br><br>
+      I have spent two and half years at the Food Processing Suppliers Association creating web content, managing digital campaigns, and more,  work as the Volunteer Communications Director for Discovery Deep (non-profit entity), and do freelance graphic design creating logos, marketing material, websites, and more.<br><br>
     </p>
     <table>
       <tr>
@@ -65,7 +66,8 @@
       </tr>
     </table>
     <p>
-      &bull; Develop and design content for Association and trade show websites.<br>&bull; Generat content for social media, email campaigns, and press releases.<br>&bull; Create logos and marketing material for association innitiatives including DEFEAT HUNGER.<br>&bull; Created and lead the FPSA Young Professionals Group.<br><br>
+      &bull; Develop and design content for Association and trade show websites.<br>&bull; Generat content for social media, email campaigns, and press releases.<br>&bull; Create logos and marketing material for association innitiatives including DEFEAT HUNGER.<br>&bull; Created and lead the FPSA Young Professionals Group.<br>&bull; Analyzed marketing data from campaigns for PROCESS EXPO, our biennial trade show, in which we increased attendance by 15% over the 2013 show.<br>&bull; Increased traffic flow on show website (www.myprocessexpo.com) by 97% over 2013 show.
+<br><br>
     </p>
     <table>
       <tr>
@@ -149,43 +151,77 @@
     </div>
   </div>
   
+<!-- PORTFOLIO -->
+<!-- PORTFOLIO -->
+  
   <div id="port" class="portfolio">
     <h2 class="sectionhead">
       PORTFOLIO
     </h2>
-    <button class="logobtn">LOGO DESIGN</button>
+    <button class="ptflo">VIEW ALL WORK</button>
+    
+<!-- LOGO DESIGN -->
+<!-- LOGO DESIGN -->
+    
+    <button id="logobtn" class="logobtn" onmouseover="logodes()" onmouseout="logodesout()">LOGO DESIGN</button>
+    
     <div class="logocontent">
       <a target="_blank" href="http://i.imgur.com/BGIEX0F.png">
-        <img class ="logoimg" src="http://i.imgur.com/BGIEX0F.png">
+      <img id="logoone-btn" class ="logoimg" src="http://i.imgur.com/BGIEX0F.png">
       </a>
+      
       <a target="_blank" href="http://i.imgur.com/HWl2D61.jpg">
-        <img class ="logoimg" src="http://i.imgur.com/HWl2D61.jpg">
+      <img id="logotwo-btn" class ="logoimg" src="http://i.imgur.com/HWl2D61.jpg">
       </a>
+      
       <a target="_blank" href="http://i.imgur.com/iBV3zvC.jpg">
-        <img class ="logoimg" src="http://i.imgur.com/iBV3zvC.jpg">
+      <img id="logothree-btn" class ="logoimg" src="http://i.imgur.com/iBV3zvC.jpg">
       </a>
+      
     </div>
-    <button class="mmbtn">MARKETING MATERIAL</button>
+    
+<!-- MARKETING MATERIAL -->
+<!-- MARKETING MATERIAL -->
+    
+    <button id="mmbtn"class="mmbtn" onmouseover="mmdes()" onmouseout="mmdesout()">MARKETING MATERIAL</button>
+    
     <div class="mmcontent">
+      
       <a target="_blank" href="http://i.imgur.com/8AKvdoT.png">
-        <img class ="mmimg" src="http://i.imgur.com/8AKvdoT.png">
+      <img id="mmone-btn" class ="mmimg" src="http://i.imgur.com/8AKvdoT.png">
       </a>
+  
       <a target="_blank" href="http://i.imgur.com/5x67PYE.png">
-        <img class ="mmimg" src="http://i.imgur.com/5x67PYE.png">
+      <img id="mmtwo-btn" class ="mmimg" src="http://i.imgur.com/5x67PYE.png">
       </a>
-        <br>
+     
+      <br>
+        
       <a target="_blank" href="http://i.imgur.com/NZiLiyt.jpg">
-        <img class ="mmimg" src="http://i.imgur.com/NZiLiyt.jpg">
+      <img id="mmthree-btn" class ="mmimg" src="http://i.imgur.com/NZiLiyt.jpg">
       </a>
+      
     </div>
-    <button class="wdbtn">WEB DESIGN</button>
+    
+<!-- WEB DESIGN -->
+<!-- WEB DESIGN -->
+    
+    <button id="wdbtn"class="wdbtn" onmouseover="wddes()" onmouseout="wddesout()">WEB DESIGN</button>
     <div class="wdcontent">
+      <h3>
+        Sites Created
+      </h3>
       <a target="_blank" href="http://www.discoverydeep.org/"><img class ="wdimg" src="http://i.imgur.com/aqj8iV4.png"></a>
       <a target="_blank" href="http://vr.discoverydeep.com/"><img class ="wdimg" src="http://i.imgur.com/BgpQMaw.png"></a>
+      <h3>
+        Sites Managed
+      </h3>
+            <a target="_blank" href="http://www.fpsa.org/"><img class ="wdimg" src="http://i.imgur.com/oXFHzDOg.png"></a>
+      <a target="_blank" href="http://www.myprocessexpo.com/"><img class ="wdimg" src="http://i.imgur.com/wcgJ9PX.png"></a>
     </div>
   </div>
   
-  <div class="cont">
+  <div class="cont" id="cont">
     <h2 class="sectionhead">
       CONTACT
     </h2>
@@ -206,6 +242,9 @@
 
   </div>
   
+<!-- FOOTER -->
+<!-- FOOTER -->
+  
   <div class="footer">
     <a href="#about">About</a>
     <a href="#exp">Experience</a>
@@ -216,6 +255,9 @@
     <p>
       This site was created by Alex Stopa using HTML, CSS, JS, and JQuery.
     </p>
+    <a target="_blank" href="https://codepen.io/stopaalex/pen/xqVOWZ">
+      <button class="codepen">View the CodePen Development Environment</button>
+    </a>
   </div>
   
 </body>
