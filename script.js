@@ -1,5 +1,11 @@
+setTimeout(function(){
+  if($('#welcome').length > 0) {
+    $('#welcome').slideUp();
+  }
+}, 6000)
+
 $(document).ready(function(){
-  
+    
     $(".logocontent").hide();
     $(".logobtn").click(function(){
         $(".logocontent").slideToggle(1000);
