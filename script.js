@@ -2,7 +2,7 @@ setTimeout(function(){
   if($('#welcome').length > 0) {
     $('#welcome').slideUp();
   }
-}, 6000)
+}, 2000)
 
 $(document).ready(function(){
     
@@ -123,4 +123,3 @@ function wddesout() {
   document.getElementById("wdbtn").innerHTML = "WEB DESIGN";
 }
 */
- 
