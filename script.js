@@ -1,8 +1,11 @@
+/* TIMEOUT OF WELCOME PAGE - TAKEN OUT
+
 setTimeout(function(){
   if($('#welcome').length > 0) {
     $('#welcome').slideUp();
   }
 }, 2000)
+*/
 
 $(document).ready(function(){
     
@@ -11,11 +14,18 @@ $(document).ready(function(){
         $(".logocontent").slideToggle(1000);
       
        if ($("#logobtn").text() == "LOGO DESIGN") {
-         $("#logobtn").html("close")
+         $("#logobtn").html("x")
        }
        else {
          $("#logobtn").text("LOGO DESIGN")
        }
+      
+      if($("#logobtn").text() =="x") {
+        $("#logobtn").css('text-align','right')
+      }
+      else {
+        $("#logobtn").css('text-align','center')
+      }
       
     });
   
@@ -24,11 +34,18 @@ $(document).ready(function(){
         $(".mmcontent").slideToggle(1000);
       
       if ($("#mmbtn").text() == "MARKETING MATERIAL") {
-         $("#mmbtn").html("close")
+         $("#mmbtn").html("x")
        }
        else {
          $("#mmbtn").text("MARKETING MATERIAL")
        }
+      
+      if($("#mmbtn").text() =="x") {
+        $("#mmbtn").css('text-align','right')
+      }
+      else {
+        $("#mmbtn").css('text-align','center')
+      }
       
     });
   
@@ -37,11 +54,18 @@ $(document).ready(function(){
         $(".wdcontent").slideToggle(1000);
       
       if ($("#wdbtn").text() == "WEB DESIGN") {
-         $("#wdbtn").html("close")
+         $("#wdbtn").html("x")
        }
        else {
          $("#wdbtn").text("WEB DESIGN")
        }
+      
+      if($("#wdbtn").text() =="x") {
+        $("#wdbtn").css('text-align','right')
+      }
+      else {
+        $("#wdbtn").css('text-align','center')
+      }
       
     });
   
@@ -54,20 +78,34 @@ $(document).ready(function(){
         $(".logocontent").slideToggle(1000);
       
        if ($("#logobtn").text() == "LOGO DESIGN") {
-         $("#logobtn").html("close")
+         $("#logobtn").html("x")
        }
        else {
          $("#logobtn").text("LOGO DESIGN")
        }
       
+      if($("#logobtn").text() =="x") {
+        $("#logobtn").css('text-align','right')
+      }
+      else {
+        $("#logobtn").css('text-align','center')
+      }
+      
 /* VIEW ALL TEXT TOGGLE*/  
       
       if ($(".ptflo").text() == "VIEW ALL WORK") {
-         $(".ptflo").html("close all")
+         $(".ptflo").html("x")
        }
        else {
          $(".ptflo").text("VIEW ALL WORK")
        }
+      
+      if($(".ptflo").text() =="x") {
+        $(".ptflo").css('text-align','right')
+      }
+      else {
+        $(".ptflo").css('text-align','center')
+      }
       
     });
   
@@ -76,11 +114,19 @@ $(document).ready(function(){
         $(".mmcontent").slideToggle(1000);
       
       if ($("#mmbtn").text() == "MARKETING MATERIAL") {
-         $("#mmbtn").html("close")
+         $("#mmbtn").html("x")
        }
        else {
          $("#mmbtn").text("MARKETING MATERIAL")
        }
+      
+      if($("#mmbtn").text() =="x") {
+        $("#mmbtn").css('text-align','right')
+      }
+      else {
+        $("#mmbtn").css('text-align','center')
+      }
+      
       
     });
   
@@ -89,37 +135,19 @@ $(document).ready(function(){
         $(".wdcontent").slideToggle(1000);
       
       if ($("#wdbtn").text() == "WEB DESIGN") {
-         $("#wdbtn").html("close")
+         $("#wdbtn").html("x")
        }
        else {
          $("#wdbtn").text("WEB DESIGN")
        }
       
+      if($("#wdbtn").text() =="x") {
+        $("#wdbtn").css('text-align','right')
+      }
+      else {
+        $("#wdbtn").css('text-align','center')
+      }
+      
+      
     });
 });
-
- 
-/*
-function logodes(){
-  document.getElementById("logobtn").innerHTML = "Click to View Content";
-}
-function logodesout() {
-  document.getElementById("logobtn").innerHTML = "LOGO DESIGN";
-}
-
-
-function mmdes(){
-  document.getElementById("mmbtn").innerHTML = "Click to View Content";
-}
-function mmdesout() {
-  document.getElementById("mmbtn").innerHTML = "MARKETING MATERIAL";
-}
-
-
-function wddes(){
-  document.getElementById("wdbtn").innerHTML = "Click to View Content";
-}
-function wddesout() {
-  document.getElementById("wdbtn").innerHTML = "WEB DESIGN";
-}
-*/
