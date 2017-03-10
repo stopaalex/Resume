@@ -32,12 +32,6 @@ body {
 .welcome p.onep {
   font-size:2em;
 }
-.welcome p.twop {
-  font-size:1em;
-}
-.welcome p.fourp {
-  font-size:0.5em;
-}
 
 .herotxt {
   text-align:center;
@@ -116,6 +110,9 @@ li a:hover {
   background-color:#ffffff;
   margin: 0px 0px 0px 0px;
   padding: 1% 10% 1% 10%;
+}
+h3 {
+  text-align:center;
 }
 table {
   width:100%;
