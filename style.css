@@ -1,4 +1,4 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:760px) {
   .herotxt {display:none;}  
   #menu {position:relative;}
   #menu li {float:none; font-size: 2em; width:100%;}
@@ -7,30 +7,6 @@
 body {
   margin:0;
   font-family:arial;
-}
-
-.welcome {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  
-  padding: 10%;
-  color:white;
-  font-size:2em;
-    
-  width:100%;
-  height:100vh;
-  background-color:#000000;
-  opacity:0.98;
-  z-index:1;
-  position:fixed;
-}
-.welcome p {
-  text-align:center;
-}
-.welcome p.onep {
-  font-size:2em;
 }
 
 .herotxt {
